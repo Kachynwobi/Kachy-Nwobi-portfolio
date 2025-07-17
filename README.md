@@ -2,7 +2,7 @@
 
 <h1 align="center">Kachy Nwobi</h1>
 <p align="center">
-Geospatial Data Engineer &nbsp;&nbsp;|&nbsp;&nbsp; <em style="color:#0077b6;">AEC & Urban Resilience&nbsp;&nbsp;|&nbsp;&nbsp;Data-Driven Storytelling</em>  
+<em style="color:#0077b6;">Geospatial Data Engineer &nbsp;&nbsp;|&nbsp;&nbsp; <em style="color:#0077b6;">AEC & Urban Resilience&nbsp;&nbsp;|&nbsp;&nbsp;Data-Driven Storytelling</em>  
 <br>
 <a href="mailto:kachynwobi@gmail.com" style="margin: 0 0.5em;">
   <img src="https://img.shields.io/badge/Email-00a3e0?style=flat-square&logo=gmail&logoColor=white" alt="Email">
