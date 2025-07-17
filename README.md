@@ -31,7 +31,7 @@ Integrated BIM models with GIS features for 3D infrastructure coordination.
 ![ArcGIS GeoBIM Dashboard](images/geobim-dashboard.png)
 
 **Blog Posts:**  
-- [Customizing ArcGIS GeoBIM Web Maps and Scenes](https://www.esri.com/arcgis-blog/products/arcgis-geobim/3d-gis/customizing-arcgis-geobim-web-maps-and-scenes/)  
+- [Customizing ArcGIS GeoBIM Web Maps and Scenes](https://www.esri.com/arcgis-blog/products/geobim/aec/customizing-geobim-web-maps-and-scenes)  
 - [Using Autodesk Bridge with ArcGIS GeoBIM](https://www.esri.com/arcgis-blog/products/arcgis-geobim/3d-gis/using-autodesk-bridge-with-arcgis-geobim/)  
 - [Generating Schedule Polygons with ArcGIS Pro](https://www.esri.com/arcgis-blog/products/arcgis-pro/3d-gis/generating-schedule-polygons-in-arcgis-pro/)  
 - [Using User‑specified Coordinate Systems](https://www.esri.com/arcgis-blog/products/arcgis-geobim/3d-gis/using-user-specified-coordinate-systems-in-arcgis-geobim/)  
