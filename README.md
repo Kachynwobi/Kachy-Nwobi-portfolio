@@ -1,191 +1,161 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>{{ page.title }}</title>
-  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet" />
-  <style>
-    :root {
-      --bg-light: #f9f9f9;
-      --bg-dark: #121212;
-      --text-light: #333;
-      --text-dark: #f0f0f0;
-      --accent: #004d99;
-      --link-hover: #007acc;
-    }
-    body {
-      font-family: 'Inter', sans-serif;
-      margin: 0;
-      padding: 0;
-      background-color: var(--bg-light);
-      color: var(--text-light);
-      transition: background 0.3s, color 0.3s;
-    }
-    body.dark-mode {
-      background-color: var(--bg-dark);
-      color: var(--text-dark);
-    }
-    a {
-      color: var(--accent);
-      text-decoration: none;
-    }
-    a:hover {
-      color: var(--link-hover);
-    }
-    header {
-      background: var(--accent);
-      color: white;
-      padding: 2rem 1rem;
-      text-align: center;
-    }
-    nav {
-      background: #ffffff;
-      display: flex;
-      justify-content: center;
-      gap: 2rem;
-      padding: 1rem;
-      border-bottom: 1px solid #ddd;
-    }
-    nav a {
-      font-weight: 600;
-    }
-    body.dark-mode nav {
-      background: #1e1e1e;
-    }
-    nav a:hover {
-      color: var(--accent);
-    }
-    .toggle-dark {
-      position: fixed;
-      top: 1rem;
-      right: 1rem;
-      background: #ccc;
-      padding: 0.5rem 1rem;
-      border: none;
-      border-radius: 20px;
-      cursor: pointer;
-      font-weight: bold;
-    }
-    section {
-  max-width: 900px;
-  margin: 2rem auto;
-  padding: 2rem 1rem;
-  border-radius: 12px;
-  background-color: #ffffff;
-  transition: background-color 0.3s;
-}
-    h2 {
-      color: var(--accent);
-      border-bottom: 2px solid #eee;
-      padding-bottom: 0.5rem;
-    }
-    .skills table {
-      width: 100%;
-      border-collapse: collapse;
-    }
-    .skills td {
-      padding: 0.5rem;
-      border: 1px solid #ddd;
-    }
-    .project img {
-      width: 100%;
-      max-width: 700px;
-      border-radius: 10px;
-      box-shadow: 0 4px 10px rgba(0,0,0,0.1);
-      margin: 1rem 0;
-    }
-    .contact a {
-      display: inline-block;
-      margin: 0.5rem;
-      padding: 0.5rem 1rem;
-      background: #e0f0ff;
-      border-radius: 5px;
-      text-decoration: none;
-      color: var(--accent);
-      font-weight: 600;
-    }
-    footer {
-      text-align: center;
-      padding: 1rem;
-      background: #eee;
-      font-size: 0.9rem;
-      margin-top: 4rem;
-    }
-    body.dark-mode footer {
-  background: #1e1e1e;
-}
+<!-- ![Portfolio Banner](image/banner.png) -->
 
-body.dark-mode section {
-  background-color: #1e1e1e;
-}
-  </style>
-</head>
-<body>
-  <button class="toggle-dark" onclick="document.body.classList.toggle('dark-mode')">🌓 Theme</button>
+<h1 align="center">Kachy Nwobi</h1>
+<p align="center">
+Geospatial Data Engineer &nbsp;&nbsp;|&nbsp;&nbsp; <em style="color:#0077b6;">AEC & Urban Resilience&nbsp;&nbsp;|&nbsp;&nbsp;Data-Driven Storytelling</em>  
+<br>
+<a href="mailto:kachynwobi@gmail.com" style="margin: 0 0.5em;">
+  <img src="https://img.shields.io/badge/Email-00a3e0?style=flat-square&logo=gmail&logoColor=white" alt="Email">
+</a>
+<a href="https://www.linkedin.com/in/kachy-nwobi-3463b64a/" style="margin: 0 0.5em;">
+  <img src="https://img.shields.io/badge/LinkedIn-0077b5?style=flat-square&logo=linkedin&logoColor=white" alt="LinkedIn">
+</a>
+<a href="https://github.com/Kachynwobi/kachynwobi_portfolio/blob/main/image/Kachy_Nwobi_Resume_GDE.pdf" style="margin: 0 0.5em;">
+  <img src="https://img.shields.io/badge/Resume-555?style=flat-square&logo=read-the-docs&logoColor=white" alt="Resume">
+</a>
 
-  <header>
-    <h1>Kachy Nwobi</h1>
-    <p>Geospatial Data Engineer | AEC & Urban Resilience | Data-Driven Storytelling</p>
-  </header>
+</div>
 
-  <nav>
-    <a href="#about">About</a>
-    <a href="#skills">Skills</a>
-    <a href="#projects">Projects</a>
-    <a href="#contact">Contact</a>
-  </nav>
+---
 
-  <section id="about">
-    <h2>About Me</h2>
-    <p>I’m a geospatial data engineer with 5+ years of experience curating, transforming, and deploying spatial datasets to power intelligent decision-making across AEC, climate, and urban resilience domains.</p>
-  </section>
+<div align="center" style="margin-bottom:1em;">
+  <a href="#about-me">About</a> &nbsp;|&nbsp;
+  <a href="#core-skills">Skills</a> &nbsp;|&nbsp;
+  <a href="#featured-projects">Projects</a> &nbsp;|&nbsp;
+  <a href="#connect-with-me">Contact</a>
+</div>
 
-  <section id="skills" class="skills">
-    <h2>Core Skills</h2>
-    <table>
-      <tr><td><strong>GIS Tools</strong></td><td>ArcGIS Pro, ArcGIS Online, ArcGIS Enterprise, QGIS, CityEngine</td></tr>
-      <tr><td><strong>Data Tools</strong></td><td>GDAL, Python, SQL, GeoTIFF, GeoJSON, LAS/LAZ</td></tr>
-      <tr><td><strong>AEC Platforms</strong></td><td>ArcGIS GeoBIM, Autodesk Forma, Revit, Civil 3D</td></tr>
-      <tr><td><strong>Visualization</strong></td><td>Web maps, dashboards, 3D terrain</td></tr>
-      <tr><td><strong>Collaboration</strong></td><td>GitHub, Jira, Figma</td></tr>
-    </table>
-  </section>
+---
 
-  <section id="projects">
-    <h2>Featured Projects</h2>
+## 👋 About Me
+<span id="about-me"></span>
 
-    <div class="project">
-      <h3>ArcGIS GeoBIM: Connecting GIS + BIM</h3>
-      <p>Integrated BIM models with GIS features for 3D infrastructure coordination.</p>
-      <img src="image/arcgis-geobim.png" alt="ArcGIS GeoBIM">
-      <p><a href="https://www.esri.com/en-us/arcgis/products/arcgis-geobim/overview">Learn more</a></p>
-    </div>
+<div style="background: #f8faff; border-left: 4px solid #00a3e0; padding: 1em 1.5em; margin-bottom: 1.5em;">
+Versatile geospatial data engineer with <strong>5+ years of experience</strong> preparing, processing, and managing spatial datasets for large-scale applications. Skilled in handling raster, vector, and elevation data, with a focus on automating workflows and supporting cross-functional teams. Experienced with <strong>GDAL, Python, and open-source GIS tools</strong> to align, clean, and format geospatial data for machine learning pipelines, cloud integrations, and mapping platforms. Adept at collaborating with AI/ML, product, and engineering teams to ensure data readiness for research and deployment.
+</div>
 
-    <div class="project">
-      <h3>ArcGIS for Autodesk Forma</h3>
-      <p>Real-time GIS integration to support collaborative urban design workflows.</p>
-      <img src="image/arcgisforautodeskforma.png" alt="ArcGIS for Autodesk Forma">
-      <p><a href="https://www.esri.com/en-us/arcgis/products/arcgis-for-autodesk-forma/overview">Learn more</a></p>
-    </div>
+---
 
-    <div class="project">
-      <h3>PolicyMap: Mapping Vulnerability</h3>
-      <p>Developed thematic maps for flood vulnerability and public infrastructure analysis.</p>
-      <img src="image/policymap_project.png" alt="PolicyMap Midwest Floods">
-      <p><a href="https://policymap.wpengine.com/blog/the-midwest-floods-and-socially-vulnerable-populations">Read the article</a></p>
-    </div>
-  </section>
+## 🛠️ Core Skills
+<span id="core-skills"></span>
 
-  <section id="contact" class="contact">
-    <h2>Connect With Me</h2>
-    <a href="mailto:kachynwobi@gmail.com">Email</a>
-    <a href="https://www.linkedin.com/in/kachy-nwobi-3463b64a/">LinkedIn</a>
-    <a href="https://github.com/Kachynwobi/kachynwobi_portfolio/blob/7b2df8c69f2e50f516893cb96101ef6bee4d34a6/image/Kachy_Nwobi_Resume_GDE.pdf">Resume</a>
-  </section>
+<table>
+  <tr>
+    <th align="left">GIS Tools</th>
+    <td>ArcGIS Pro, ArcGIS Online, ArcGIS Enterprise, QGIS, CityEngine</td>
+  </tr>
+  <tr>
+    <th align="left">Data Tools</th>
+    <td>GDAL, Python, SQL, GeoTIFF, GeoJSON, LAS/LAZ, Bash, XML, VBScript</td>
+  </tr>
+  <tr>
+    <th align="left">AEC Platforms</th>
+    <td>ArcGIS GeoBIM, Autodesk Forma, Revit, Civil 3D, Autodesk BIM 360</td>
+  </tr>
+  <tr>
+    <th align="left">Visualization</th>
+    <td>Web maps, dashboards, 3D terrain, visual reports</td>
+  </tr>
+  <tr>
+    <th align="left">Collaboration</th>
+    <td>GitHub, Jira, Figma, Lucidchart, Agile workflows</td>
+  </tr>
+  <tr>
+    <th align="left">Platforms</th>
+    <td>Linux/Unix, Windows</td>
+  </tr>
+  <tr>
+    <th align="left">Soft Skills</th>
+    <td>Cross-team collaboration, QA/QC, documentation, technical writing, data storytelling</td>
+  </tr>
+</table>
 
-  <footer>
-    <p>© 2025 Kachy Nwobi · Powered by GitHub Pages</p>
-  </footer>
-</body>
-</html>
+---
+
+## 🚀 Featured Projects
+<span id="featured-projects"></span>
+
+### <span style="color:#00a3e0">ArcGIS GeoBIM: Connecting GIS + BIM</span>  
+**Role:** Geospatial Product & Support Engineer, Esri  
+[Learn more](https://www.esri.com/en-us/arcgis/products/arcgis-geobim/overview)  
+- Processed and prepared spatial datasets for integration with cloud-based GIS and AEC platforms.
+- Used GDAL and Python to align, resample, and validate raster and vector data across regions.
+- Collaborated with engineering and product teams to identify gaps in data coverage and performance.
+- Supported internal ML initiatives by curating and formatting diverse data types for training and validation.
+- Documented technical workflows and contributed to tool development for internal data pipelines.
+
+<img src="image/arcgis-geobim.png" alt="ArcGIS GeoBIM" width="70%" style="margin:1em 0;"/>
+
+**Featured Blog Posts:**  
+- [Customizing ArcGIS GeoBIM Web Maps and Scenes](https://www.esri.com/arcgis-blog/products/arcgis-geobim/3d-gis/customizing-arcgis-geobim-web-maps-and-scenes/)  
+- [Using Autodesk Bridge with ArcGIS GeoBIM](https://www.esri.com/arcgis-blog/products/arcgis-geobim/3d-gis/using-autodesk-bridge-with-arcgis-geobim/)  
+- [Generating Schedule Polygons with ArcGIS Pro](https://www.esri.com/arcgis-blog/products/arcgis-pro/3d-gis/generating-schedule-polygons-in-arcgis-pro/)  
+- [Using User‑specified Coordinate Systems](https://www.esri.com/arcgis-blog/products/arcgis-geobim/3d-gis/using-user-specified-coordinate-systems-in-arcgis-geobim/)  
+
+---
+
+### <span style="color:#00a3e0">ArcGIS for Autodesk Forma: Real-Time Urban Design</span>  
+**Role:** Geospatial Product & Support Engineer, Esri  
+[Learn more](https://www.esri.com/en-us/arcgis/products/arcgis-for-autodesk-forma/overview)  
+Real-time GIS integration to support collaborative urban design workflows.  
+<img src="image/arcgisforautodeskforma.png" alt="ArcGIS for Autodesk Forma" width="70%" style="margin:1em 0;"/>
+
+---
+
+### <span style="color:#00a3e0">PolicyMap: Mapping Vulnerability</span>  
+**Role:** GIS Data & Content Associate, PolicyMap  
+[See project](https://policymap.wpengine.com/blog/the-midwest-floods-and-socially-vulnerable-populations)  
+- Cleaned and standardized spatial data using SQL and ArcGIS tools for a national data platform.
+- Assessed data quality, coverage, and freshness across multiple public and commercial sources.
+- Wrote documentation and blog posts to support end users and explain datasets.
+- Participated in QA and assisted with rolling out new platform features.  
+<img src="image/policymap_project.png" alt="PolicyMap Midwest Floods" width="70%" style="margin:1em 0;"/>
+
+
+---
+
+## 📫 Connect With Me
+<span id="connect-with-me"></span>
+
+<div align="center">
+
+<a href="mailto:kachynwobi@gmail.com">
+  <img src="https://img.shields.io/badge/email-00a3e0?logo=gmail&logoColor=white&style=for-the-badge" alt="Email" style="margin: 0 0.5em;">
+</a>
+<a href="https://www.linkedin.com/in/kachy-nwobi-3463b64a/">
+  <img src="https://img.shields.io/badge/linkedin-0077b5?logo=linkedin&logoColor=white&style=for-the-badge" alt="LinkedIn" style="margin: 0 0.5em;">
+</a>
+<a href="https://github.com/Kachynwobi/kachynwobi_portfolio/blob/main/image/Kachy_Nwobi_Resume_GDE.pdf">
+  <img src="https://img.shields.io/badge/resume-view-6c757d?style=for-the-badge" alt="Resume" style="margin: 0 0.5em;">
+</a>
+
+</div>
+
+---
+
+<details>
+<summary><strong>Education, Certifications & Community</strong> (click to expand)</summary>
+
+### 🎓 Education
+- <strong>M.S.: Geospatial Technology for Geodesign</strong>  
+  Thomas Jefferson University – Philadelphia, PA
+- <strong>B.S.: Environmental Engineering, Minor in Finance</strong>  
+  Drexel University – Philadelphia, PA
+
+### 🏅 Certifications & Recognition
+- Bloomberg Market Concepts
+- Order of the Engineer
+- AJ Drexel Merit Scholar
+
+### 🤝 Affiliations & Community Engagement
+- Women in Geospatial Network
+- Philadelphia Women in GIS
+- Habitat for Humanity – Neighborhood Revitalization Committee
+
+</details>
+
+---
+
+<p align="center">
+  <sub>© 2025 Kachy Nwobi &nbsp;|&nbsp; Powered by <a href="https://pages.github.com/">GitHub Pages</a></sub>
+</p>
