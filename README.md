@@ -29,6 +29,8 @@ I’m a geospatial data engineer with 5+ years of experience curating, transform
 Integrated BIM models with GIS features for 3D infrastructure coordination.
 
 ![ArcGIS GeoBIM](image/arcgis-geobim.png)
+[Learn more](https://www.esri.com/en-us/arcgis/products/arcgis-geobim/overview)
+
 
 **Blog Posts:**  
 - [Customizing ArcGIS GeoBIM Web Maps and Scenes](https://www.esri.com/arcgis-blog/products/geobim/aec/customizing-geobim-web-maps-and-scenes)  
@@ -43,6 +45,7 @@ Integrated BIM models with GIS features for 3D infrastructure coordination.
 Enabled real-time GIS data integration into Autodesk Forma.
 
 ![ArcGIS for Autodesk Forma Integration](image/arcgisforautodeskforma.png)
+[Learn more](https://www.esri.com/en-us/arcgis/products/arcgis-for-autodesk-forma/overview)
 
 ---
 
@@ -57,8 +60,7 @@ Mapped social vulnerability related to flood risk and public infrastructure.
 
 ## 🌐 Connect With Me  
 - 📧 [kachynwobi@gmail.com](mailto:kachynwobi@gmail.com)  
-- 💼 [LinkedIn](#)  
-- 💻 [GitHub](#)
+- 💼 [LinkedIn](https://www.linkedin.com/in/kachy-nwobi-3463b64a/)  
 
 ---
 
