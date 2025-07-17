@@ -21,7 +21,7 @@ Geospatial Data Engineer &nbsp;&nbsp;|&nbsp;&nbsp; <em style="color:#0077b6;">AE
 <div align="center" style="margin-bottom:1em;">
   <a href="#about-me">About</a> &nbsp;|&nbsp;
   <a href="#core-skills">Skills</a> &nbsp;|&nbsp;
-  <a href="[projects.md]">Projects</a> &nbsp;|&nbsp;
+  <a href="projects.md">Projects</a> &nbsp;|&nbsp;
   <a href="#connect-with-me">Contact</a>
 </div>
 
