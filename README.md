@@ -50,7 +50,7 @@ Enabled real-time GIS data integration into Autodesk Forma.
 **Role:** GIS Content Associate at PolicyMap  
 Mapped social vulnerability related to flood risk and public infrastructure.
 
-![Midwest Floods Vulnerability Map](images/midwest-floods.png)  
+![Midwest Floods Vulnerability Map](image/Policymapproject.png)  
 [Read the article](https://www.policymap.com/2023/08/flooding-and-vulnerability/)
 
 ---
