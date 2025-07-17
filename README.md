@@ -27,7 +27,7 @@ Geospatial Data Engineer &nbsp;&nbsp;|&nbsp;&nbsp; <em style="color:#0077b6;">AE
 
 ---
 
-## 👋 About Me
+##  About Me
 <span id="about-me"></span>
 
 <div style="background: #f8faff; border-left: 4px solid #00a3e0; padding: 1em 1.5em; margin-bottom: 1.5em;">
@@ -36,7 +36,7 @@ Versatile geospatial data engineer with <strong>5+ years of experience</strong> 
 
 ---
 
-## 🛠️ Core Skills
+##  Core Skills
 <span id="core-skills"></span>
 
 <table>
@@ -72,7 +72,7 @@ Versatile geospatial data engineer with <strong>5+ years of experience</strong> 
 
 ---
 
-## 📫 Connect With Me
+##  Contact Me
 <span id="connect-with-me"></span>
 
 <div align="center">
