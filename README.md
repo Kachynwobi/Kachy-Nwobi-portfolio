@@ -28,7 +28,7 @@ I’m a geospatial data engineer with 5+ years of experience curating, transform
 **Role:** Geospatial Product Engineer at Esri  
 Integrated BIM models with GIS features for 3D infrastructure coordination.
 
-![ArcGIS GeoBIM Dashboard](images/geobim-dashboard.png)
+![ArcGIS GeoBIM](image/arcgis-geobim.png)
 
 **Blog Posts:**  
 - [Customizing ArcGIS GeoBIM Web Maps and Scenes](https://www.esri.com/arcgis-blog/products/geobim/aec/customizing-geobim-web-maps-and-scenes)  
