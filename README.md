@@ -1,4 +1,3 @@
-# kachynwobi_portfolio
 # Kachy Nwobi
 
 **Geospatial Data Engineer | AEC & Urban Resilience | Data-Driven Storytelling**  
