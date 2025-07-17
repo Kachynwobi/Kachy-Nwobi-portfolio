@@ -130,31 +130,6 @@ Real-time GIS integration to support collaborative urban design workflows.
 
 </div>
 
----
-
-<details>
-<summary><strong>Education, Certifications & Community</strong> (click to expand)</summary>
-
-### 🎓 Education
-- <strong>M.S.: Geospatial Technology for Geodesign</strong>  
-  Thomas Jefferson University – Philadelphia, PA
-- <strong>B.S.: Environmental Engineering, Minor in Finance</strong>  
-  Drexel University – Philadelphia, PA
-
-### 🏅 Certifications & Recognition
-- Bloomberg Market Concepts
-- Order of the Engineer
-- AJ Drexel Merit Scholar
-
-### 🤝 Affiliations & Community Engagement
-- Women in Geospatial Network
-- Philadelphia Women in GIS
-- Habitat for Humanity – Neighborhood Revitalization Committee
-
-</details>
-
----
-
 <p align="center">
   <sub>© 2025 Kachy Nwobi &nbsp;|&nbsp; Powered by <a href="https://pages.github.com/">GitHub Pages</a></sub>
 </p>
