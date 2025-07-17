@@ -42,7 +42,7 @@ Integrated BIM models with GIS features for 3D infrastructure coordination.
 **Role:** Geospatial Product Engineer at Esri  
 Enabled real-time GIS data integration into Autodesk Forma.
 
-![ArcGIS Forma Integration](images/forma-integration.png)
+![ArcGIS for Autodesk Forma Integration](image/arcgisforautodeskforma.png)
 
 ---
 
