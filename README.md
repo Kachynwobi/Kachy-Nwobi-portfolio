@@ -124,7 +124,7 @@ Real-time GIS integration to support collaborative urban design workflows.
 <a href="https://www.linkedin.com/in/kachy-nwobi-3463b64a/">
   <img src="https://img.shields.io/badge/linkedin-0077b5?logo=linkedin&logoColor=white&style=for-the-badge" alt="LinkedIn" style="margin: 0 0.5em;">
 </a>
-<a href="https://github.com/Kachynwobi/kachynwobi_portfolio/blob/main/image/Kachy_Nwobi_Resume_GDE.pdf">
+<a href="image/Kachy_Nwobi_Resume_GDE.pdf">
   <img src="https://img.shields.io/badge/resume-view-6c757d?style=for-the-badge" alt="Resume" style="margin: 0 0.5em;">
 </a>
 
