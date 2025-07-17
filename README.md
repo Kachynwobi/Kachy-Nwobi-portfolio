@@ -1,7 +1,3 @@
-<html lang="en">
-<head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Kachy Nwobi | Geospatial Portfolio</title>
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet" />
   <style>
@@ -121,7 +117,6 @@
     <h2>Connect With Me</h2>
     <a href="mailto:kachynwobi@gmail.com">Email</a>
     <a href="https://www.linkedin.com/in/kachy-nwobi-3463b64a/">LinkedIn</a>
-    <a href="https://github.com/Kachynwobi">GitHub</a>
     <a href="https://github.com/Kachynwobi/kachynwobi_portfolio/blob/7b2df8c69f2e50f516893cb96101ef6bee4d34a6/image/Kachy_Nwobi_Resume_GDE.pdf">Resume</a>
   </section>
 
