@@ -2,7 +2,7 @@
 # Kachy Nwobi
 
 **Geospatial Data Engineer | AEC & Urban Resilience | Data-Driven Storytelling**  
-📧 kachynwobi@gmail.com · [Resume](#)
+📧 kachynwobi@gmail.com · [Resume](https://github.com/Kachynwobi/kachynwobi_portfolio/blob/7b2df8c69f2e50f516893cb96101ef6bee4d34a6/image/Kachy_Nwobi_Resume_GDE.pdf)
 
 ---
 
