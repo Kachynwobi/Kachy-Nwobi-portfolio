@@ -1,34 +1,82 @@
-  <title>Kachy Nwobi | Geospatial Portfolio</title>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>{{ page.title }}</title>
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet" />
   <style>
+    :root {
+      --bg-light: #f9f9f9;
+      --bg-dark: #121212;
+      --text-light: #333;
+      --text-dark: #f0f0f0;
+      --accent: #004d99;
+      --link-hover: #007acc;
+    }
     body {
       font-family: 'Inter', sans-serif;
-      background-color: #f9f9f9;
       margin: 0;
       padding: 0;
-      color: #333;
+      background-color: var(--bg-light);
+      color: var(--text-light);
+      transition: background 0.3s, color 0.3s;
+    }
+    body.dark-mode {
+      background-color: var(--bg-dark);
+      color: var(--text-dark);
+    }
+    a {
+      color: var(--accent);
+      text-decoration: none;
+    }
+    a:hover {
+      color: var(--link-hover);
     }
     header {
-      background: #004d99;
-      color: #fff;
+      background: var(--accent);
+      color: white;
       padding: 2rem 1rem;
       text-align: center;
     }
-    header h1 {
-      margin: 0;
-      font-size: 2.5rem;
+    nav {
+      background: #ffffff;
+      display: flex;
+      justify-content: center;
+      gap: 2rem;
+      padding: 1rem;
+      border-bottom: 1px solid #ddd;
     }
-    header p {
-      margin-top: 0.5rem;
-      font-size: 1.1rem;
+    nav a {
+      font-weight: 600;
+    }
+    body.dark-mode nav {
+      background: #1e1e1e;
+    }
+    nav a:hover {
+      color: var(--accent);
+    }
+    .toggle-dark {
+      position: fixed;
+      top: 1rem;
+      right: 1rem;
+      background: #ccc;
+      padding: 0.5rem 1rem;
+      border: none;
+      border-radius: 20px;
+      cursor: pointer;
+      font-weight: bold;
     }
     section {
-      max-width: 900px;
-      margin: 2rem auto;
-      padding: 0 1rem;
-    }
+  max-width: 900px;
+  margin: 2rem auto;
+  padding: 2rem 1rem;
+  border-radius: 12px;
+  background-color: #ffffff;
+  transition: background-color 0.3s;
+}
     h2 {
-      color: #004d99;
+      color: var(--accent);
       border-bottom: 2px solid #eee;
       padding-bottom: 0.5rem;
     }
@@ -54,7 +102,7 @@
       background: #e0f0ff;
       border-radius: 5px;
       text-decoration: none;
-      color: #004d99;
+      color: var(--accent);
       font-weight: 600;
     }
     footer {
@@ -64,20 +112,36 @@
       font-size: 0.9rem;
       margin-top: 4rem;
     }
+    body.dark-mode footer {
+  background: #1e1e1e;
+}
+
+body.dark-mode section {
+  background-color: #1e1e1e;
+}
   </style>
 </head>
 <body>
+  <button class="toggle-dark" onclick="document.body.classList.toggle('dark-mode')">🌓 Theme</button>
+
   <header>
     <h1>Kachy Nwobi</h1>
     <p>Geospatial Data Engineer | AEC & Urban Resilience | Data-Driven Storytelling</p>
   </header>
 
-  <section>
+  <nav>
+    <a href="#about">About</a>
+    <a href="#skills">Skills</a>
+    <a href="#projects">Projects</a>
+    <a href="#contact">Contact</a>
+  </nav>
+
+  <section id="about">
     <h2>About Me</h2>
     <p>I’m a geospatial data engineer with 5+ years of experience curating, transforming, and deploying spatial datasets to power intelligent decision-making across AEC, climate, and urban resilience domains.</p>
   </section>
 
-  <section class="skills">
+  <section id="skills" class="skills">
     <h2>Core Skills</h2>
     <table>
       <tr><td><strong>GIS Tools</strong></td><td>ArcGIS Pro, ArcGIS Online, ArcGIS Enterprise, QGIS, CityEngine</td></tr>
@@ -88,7 +152,7 @@
     </table>
   </section>
 
-  <section>
+  <section id="projects">
     <h2>Featured Projects</h2>
 
     <div class="project">
@@ -113,7 +177,7 @@
     </div>
   </section>
 
-  <section class="contact">
+  <section id="contact" class="contact">
     <h2>Connect With Me</h2>
     <a href="mailto:kachynwobi@gmail.com">Email</a>
     <a href="https://www.linkedin.com/in/kachy-nwobi-3463b64a/">LinkedIn</a>
